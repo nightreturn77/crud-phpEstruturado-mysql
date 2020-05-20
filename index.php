@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('view/header.php');
 include('controller/db/connection.php');
 session_start()
@@ -7,12 +7,12 @@ session_start()
 <div class="container">
 
 
-<?php
-include('view/menu.php');
-include($_SESSION['index']);
+    <?php
+    include('view/menu.php');
+    include($_SESSION['index']);
 
 
-?>
+    ?>
 
 
 
@@ -21,4 +21,3 @@ include($_SESSION['index']);
 <?php
 
 include('view/footer/php');
-
